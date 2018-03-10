@@ -1,7 +1,144 @@
-.header{
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  z-index:-1;
+
 
 }
 
-.header-text{
-  
+.First-page{
+  position: relative;
+  height: 100vh;
+  width: auto;
+  text-align: center;
+  overflow: hidden;
+  background-image: url("../img/tunnel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.First-page .info{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: normal;
+  position: absolute;
+  color: white;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.First-page h1{
+  text-align: center;
+  width: 100%;
+  font-size: 6rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-style: normal;
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+/*  */
+.Second-page{
+  height: 100vh;
+  width: auto;
+
+}
+.mesh-img{
+  height: 33%;
+  float: left;
+
+}
+
+.mesh-img img{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0 !important;
+}
+.mesh-text{
+  background-color: rgb(60, 60, 62);
+/* background: linear-gradient(to bottom right, #66784a, #4e5b49);  */
+ height: 33%;
+  float: left;
+
+}
+
+.mesh-text h2{
+  color: rgb(245, 150, 121);
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 10%;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.mesh-text p {
+  color: rgb(245, 150, 121);
+  text-align: center;
+  font-size: 1.75rem;
+  margin-top: 4%;
+}
+
+
+/*  */
+
+
+.list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    top: 50%;
+    transform: translate(50%, -50%);
+    overflow-y: auto;
+    position: fixed;
+    z-index: 1;
+  }
+
+.list-group a{
+  text-decoration: none !important;
+  color: #e6ded2;
+}
+
+.list-group a:hover{
+  color: ;
+
+
+}
+.list{
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: inherit;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.list.active{
+  z-index: 2;
+  color: #fff;
+  background-color: #e6ded2;
+  border-color: #080904;
+  position: relative;
+
+}
+
+.list-action {
+    width: 100%;
+    color: #495057;
+    text-align: center;
 }
