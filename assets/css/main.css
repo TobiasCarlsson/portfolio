@@ -59,12 +59,18 @@ body{
 
 }
 
+.col-md-6{
+  padding: 0 !important;
+}
+
 .mesh-img img{
   width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0 !important;
+  display: block;
+  margin: auto;
+
 }
+
 .mesh-text{
   background-color: rgb(60, 60, 62);
 /* background: linear-gradient(to bottom right, #66784a, #4e5b49);  */
