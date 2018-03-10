@@ -53,22 +53,31 @@ body{
   width: auto;
 
 }
-.mesh-img{
-  height: 33%;
-  float: left;
-
-}
 
 .col-md-6{
   padding: 0 !important;
 }
+
+.mesh-img{
+  height: 33%;
+  float: left;
+  overflow: hidden;
+  margin:auto;
+  vertical-align: top;
+}
+
+
 
 .mesh-img img{
   width: 100%;
   height: auto;
   display: block;
   margin: auto;
-  object-fit: contain;
+  position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)
 
 }
 
