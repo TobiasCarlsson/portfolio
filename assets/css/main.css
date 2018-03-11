@@ -14,7 +14,7 @@ body{
   width: auto;
   text-align: center;
   overflow: hidden;
-  background-image: url("../img/tunnel.jpg");
+  background-image: url("../img/tunnel-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -50,12 +50,23 @@ body{
 
 /*  */
 .seperator{
-  height: 33vh;
+  height: 20vh;
   background-color: rgb(60, 60, 62);
   border: rgb(245, 150, 121);
   border-style: solid;
   border-width: 1px 0px 1px 0px;
 
+
+}
+
+.seperator h1{
+  text-align: center;
+  color: rgb(245, 150, 121);
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-top: 3%;
 
 }
 /*  */
