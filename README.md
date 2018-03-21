@@ -5,15 +5,16 @@ https://trello.com/b/dRPugHYs
 
 
 ## Process documentation
-
-Method, Tools, Informatoin Architecture, Code structure
+### Purpose
+The purpose of this site is to shown who i'm, what i do and how to get in contact with me.
 
 ### Method
-For the frontend i used html and css, I used html and css because I feel pretty comfortable with
+I started this project with making a trelloboard, on the board i listed everything needed on the site and what i needed to think about.
+
 
 
 ### Tools
-The tools i use for this website is the text editor atom which can handle any type of text
+The tools i use for this website is the text editor atom which can handle any type of text and code.
 ### Informatoin Architecture
 
 
@@ -41,7 +42,7 @@ The tools i use for this website is the text editor atom which can handle any ty
 * En navbar på sidan som vissar vart man är på sidan.
 
 #### Ändra/fixa
-* Ha större letter-spacing 
+* Ha större letter-spacing
 ---
 ### User test 2# (Martin) 10 mars
 
