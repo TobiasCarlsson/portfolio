@@ -136,14 +136,16 @@ body{
   height: 100vh;
 }
 
-@media (max-width: 900px){
-.col-md-6 {
-  max-width: 100vw !important;
-  }
-  .mesh-text{
-    height: 20vh !important;
+ @media (max-width: 900px) {
+   .col-md-6 {
+    max-width: none;
   }
 }
+
+.col-md-6 {
+  /* max-width: none; */
+}
+
 /*  */
 
 .list-group {
