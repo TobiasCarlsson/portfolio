@@ -12,7 +12,7 @@ https://trello.com/b/dRPugHYs
 
 #### Scrolling down on the page
 
-[Imgur](https://i.imgur.com/5JUCFnC.jpg)
+https://i.imgur.com/5JUCFnC.jpg
 
 ####
 ## Process documentation
