@@ -3,8 +3,21 @@
 ## Project plan
 https://trello.com/b/dRPugHYs
 
+## sketches
+#### Navbars
+[Imgur](https://i.imgur.com/5JUCFnC.jpg)
+#### On the top of the page
 
+[Imgur](https://i.imgur.com/uHJkEnd.jpg)
+
+#### Scrolling down on the page
+
+[Imgur](https://i.imgur.com/5JUCFnC.jpg)
+
+####
 ## Process documentation
+
+
 ### Purpose
 The purpose of this site is to shown who i'm, what i do and how to get in contact with me.
 
