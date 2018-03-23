@@ -5,14 +5,14 @@ https://trello.com/b/dRPugHYs
 
 ## sketches
 #### Navbars
-[Imgur](https://i.imgur.com/5JUCFnC.jpg)
+![Imgur](https://i.imgur.com/5JUCFnC.jpg)
 #### On the top of the page
 
-[Imgur](https://i.imgur.com/uHJkEnd.jpg)
+![Imgur](https://i.imgur.com/uHJkEnd.jpg)
 
 #### Scrolling down on the page
 
-https://i.imgur.com/5JUCFnC.jpg
+![Imgur](https://i.imgur.com/5JUCFnC.jpg)
 
 ####
 ## Process documentation
