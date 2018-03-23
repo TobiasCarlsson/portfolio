@@ -51,3 +51,6 @@ The tools i use for this website is the text editor atom which can handle any ty
 * Separation mellan första bilden och "mina intressen"
 #### Ändra/fixa
 * Ändra typsnittet
+
+### User test 3# (Martin) 22 mars
+* Lägg bakgrund på "navbar" vid mobilläge
