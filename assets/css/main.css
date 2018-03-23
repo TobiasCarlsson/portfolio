@@ -135,16 +135,35 @@ body{
   margin: 1%;
 }
 
+
+.row{
+  height: 33vh;
+}
+.container{
+  max-width: 100%;
+}
+
+.mesh-text h2{
+  color: rgb(245, 150, 121);
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 10%;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.mesh-text p {
+  color: rgb(245, 150, 121);
+  text-align: center;
+  font-size: 1.75rem;
+  margin-top: 4%;
+  margin: 1%;
+}
+
 /*  */
 #contact{
   height: 100vh;
 }
-
-
-.col-md-6 {
-  /* max-width: none; */
-}
-
 /*  */
 
 .list-group {
@@ -167,6 +186,7 @@ body{
 .list-group a{
   text-decoration: none !important;
   color: #e6ded2;
+  font-size: 1.7vh;
 }
 
 .list-group a:hover{
