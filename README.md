@@ -20,6 +20,13 @@ https://trello.com/b/dRPugHYs
 ### Color scheme
 
 
+#bc0204
+#e8eae1
+#72b7bc
+#0c2235
+#04050b
+https://www.pinterest.se/pin/203928689352457766/visual-search/?x=12&y=12&w=376&h=376
+
 
 ## Process documentation
 
