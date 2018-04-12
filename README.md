@@ -15,6 +15,12 @@ https://trello.com/b/dRPugHYs
 ![Imgur](https://i.imgur.com/5JUCFnC.jpg)
 
 ####
+
+## graphical profile
+### Color scheme
+
+
+
 ## Process documentation
 
 
