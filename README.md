@@ -16,18 +16,25 @@ https://trello.com/b/dRPugHYs
 
 ####
 
-## graphical profile
+## Graphical profile
 ### Color scheme
 
+#### Background color
+#3c3c3e
 
-#bc0204
-#e8eae1
-#72b7bc
-#0c2235
-#04050b
-https://www.pinterest.se/pin/203928689352457766/visual-search/?x=12&y=12&w=376&h=376
+#### Text color
+#f59679
 
+#### a
+#e6ded2
 
+#### List colors
+#fff
+#b89a7f
+#080904
+#495057
+
+Font - Lato
 ## Process documentation
 
 
