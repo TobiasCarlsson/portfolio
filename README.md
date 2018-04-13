@@ -5,7 +5,7 @@ https://trello.com/b/dRPugHYs
 
 ## sketches
 #### Navbars
-![Imgur](https://i.imgur.com/5JUCFnC.jpg)
+![Imgur](https://i.imgur.com/oBbqEuM.jpg)
 #### On the top of the page
 
 ![Imgur](https://i.imgur.com/uHJkEnd.jpg)
@@ -34,7 +34,9 @@ https://trello.com/b/dRPugHYs
 #080904
 #495057
 
-Font - Lato
+#### Fonts
+Lato
+
 ## Process documentation
 
 
