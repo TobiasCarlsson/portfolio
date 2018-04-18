@@ -57,9 +57,6 @@ body{
   border-style: solid;
   border-width: 1px 0px 1px 0px;
 
-  /* abdi test */
-
-
 }
 
 .seperator h1{
@@ -69,27 +66,32 @@ body{
   font-size: 5.5vh;
   font-weight: 200;
   letter-spacing: 2px;
-  margin-top: 3%;
-
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
 }
 /*  */
 .Second-page{
   width: auto;
-  margin-bottom:  65vh;
-
+  margin: auto;
+  overflow: auto;
 }
 
 .col-md-6{
   padding: 0 !important;
 }
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
 
 .mesh-img{
-  height: -webkit-fill-available;
-  float: left;
+  height: 33vh;
   overflow: hidden;
   margin:auto;
   vertical-align: top;
-
 }
 
 .mesh-img img{
@@ -109,9 +111,7 @@ body{
 
 .mesh-text{
   background-color: #3c3c3e;
-  height: -webkit-fill-available;
-  float: left;
-
+  height: 33vh;
 }
 
 .mesh-text h2{
@@ -132,6 +132,22 @@ body{
 }
 
 
+.mesh-text h2{
+  color: #f59679;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 10%;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.mesh-text p {
+  color: #f59679;
+  text-align: center;
+  font-size: 1.75rem;
+  margin-top: 4%;
+  margin: 1%;
+}
 .row{
   height: 33vh;
 }
@@ -139,27 +155,6 @@ body{
   max-width: 100%;
 }
 
-.mesh-text h2{
-  color: #f59679;
-  text-align: center;
-  font-size: 2.5rem;
-  margin-top: 10%;
-  letter-spacing: 2px;
-  font-weight: 200;
-}
-
-.mesh-text p {
-  color: #f59679;
-  text-align: center;
-  font-size: 1.75rem;
-  margin-top: 4%;
-  margin: 1%;
-}
-
-/*  */
-.contact{
-  height: 100vh;
-}
 /*  */
 
 .list-group {
@@ -230,17 +225,28 @@ body{
   width: 33%;
 }
 }
-
-.contact-me{
+/*  */
+.contact{
   height: 100vh;
-  background:
 }
 
-.contact-me h1{
-  text-align: center;
+.contact-me{
+  height: 20vh;
   background-color: #3c3c3e;
+  border: #f59679;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+
+}
+.contact-me h1{
   color: white;
   font-weight: 100;
-  letter-spacing: 2px;
-  padding: 5%;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+  top: 50%;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+
 }
