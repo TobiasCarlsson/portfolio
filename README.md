@@ -36,7 +36,8 @@ https://trello.com/b/dRPugHYs
 
 #### Fonts
 Lato
-
+#### Images
+I all used
 ## Process documentation
 
 
@@ -80,14 +81,23 @@ I will use jquery and bootsrap to make it easier for my self
 
 #### Ändra/fixa
 * Ha större letter-spacing
+
 ---
+
 ### User test 2# (Martin) 10 mars
 
 #### Lägg till
 * Ha något som visar att man kan scrolla
 * Separation mellan första bilden och "mina intressen"
+* Bakgrund på "navbar" i mobilläge
+
 #### Ändra/fixa
 * Ändra typsnittet
 
-### User test 3# (Martin) 22 mars
-* Lägg bakgrund på "navbar" vid mobilläge
+
+---
+
+### User test 4# (Oskar) 18 april
+* Snygga färger med bra kontrast
+* Ändra utseendet på navbaren (desktop)
+*

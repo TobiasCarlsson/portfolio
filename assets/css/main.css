@@ -74,7 +74,6 @@ body{
 }
 /*  */
 .Second-page{
-  height: 100vh;
   width: auto;
   margin-bottom:  65vh;
 
@@ -85,16 +84,13 @@ body{
 }
 
 .mesh-img{
-  height: 33%;
+  height: -webkit-fill-available;
   float: left;
   overflow: hidden;
   margin:auto;
   vertical-align: top;
 
-
 }
-
-
 
 .mesh-img img{
   width: 101%;
@@ -113,8 +109,7 @@ body{
 
 .mesh-text{
   background-color: #3c3c3e;
-/* background: linear-gradient(to bottom right, #66784a, #4e5b49);  */
-  height: 33%;
+  height: -webkit-fill-available;
   float: left;
 
 }
@@ -234,4 +229,18 @@ body{
   float: left;
   width: 33%;
 }
+}
+
+.contact-me{
+  height: 100vh;
+  background:
+}
+
+.contact-me h1{
+  text-align: center;
+  background-color: #3c3c3e;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 5%;
 }
