@@ -78,9 +78,11 @@ I will use jquery and bootsrap to make it easier for my self
 
 #### Lägg till
 * En navbar på sidan som vissar vart man är på sidan.
+* Plus att man kan trycka på knapparna så komemr man till den delen av sidan
 
 #### Ändra/fixa
 * Ha större letter-spacing
+* Ändra font-size
 
 ---
 
@@ -94,10 +96,12 @@ I will use jquery and bootsrap to make it easier for my self
 #### Ändra/fixa
 * Ändra typsnittet
 
-
 ---
 
-### User test 4# (Oskar) 18 april
+### User test 3# (Oskar) 18 april
 * Snygga färger med bra kontrast
+
+#### Lägg till
+* Tydligare uppdelning 
+#### Ändra/fixa
 * Ändra utseendet på navbaren (desktop)
-*
