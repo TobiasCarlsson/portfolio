@@ -28,8 +28,8 @@ http.createServer(function (request, response) {
     let file = path.normalize(config.root + request.url);
     file = (file == config.root + '/') ? file + config.index : file;
 
-    console.log('Trying to serve: ', file);
-
+    // console.log('Trying to serve: ', file);
+    console.log('Refreshed!')
     function showError(error) {
         console.log(error);
 
