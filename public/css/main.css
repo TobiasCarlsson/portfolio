@@ -149,7 +149,7 @@ body{
 }
 
 .mesh-text p {
-  color: #f59679;
+  color: white;
   text-align: center;
   font-size: 1.75rem;
   margin-top: 4%;
@@ -282,4 +282,37 @@ body{
 
 .icon:hover{
   opacity: 0.7;
+}
+
+/*  */
+
+.form{
+
+  width: 50%;
+  margin: auto;
+  height: auto;
+  background:grey;
+}
+
+.form h2{
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.firstname{
+  width: 90%;
+  float: right;
+  margin-right: 1%;
+  margin-top: 2%;
+
+}
+.mail{
+  width: 90%;
+  float: right;
+  margin-right: 1%;
+
 }
