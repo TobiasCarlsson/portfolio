@@ -1,12 +1,15 @@
 # My Portfolio
 
+## Introduction
+I choose to make portfolio because i thought it was big
+
 ## Project plan
 https://trello.com/b/dRPugHYs
 
 ## sketches
 #### Navbars
 ![Imgur](https://i.imgur.com/oBbqEuM.jpg)
-#### On the top of the page
+#### Top of the page
 
 ![Imgur](https://i.imgur.com/uHJkEnd.jpg)
 
@@ -14,7 +17,8 @@ https://trello.com/b/dRPugHYs
 
 ![Imgur](https://i.imgur.com/5JUCFnC.jpg)
 
-####
+## Early images of structure digital
+![Imgur](https://i.imgur.com/hVEWSGq.png)
 
 ## Graphical profile
 ### Color scheme
@@ -37,9 +41,8 @@ https://trello.com/b/dRPugHYs
 #### Fonts
 Lato
 #### Images
-I all used
+I all the images that are on my website where take by me so i don't need to think of any copyright.
 ## Process documentation
-
 
 ### Purpose
 The purpose of this site is to shown who i'm, what i do and how to get in contact with me.
@@ -48,17 +51,16 @@ The purpose of this site is to shown who i'm, what i do and how to get in contac
 I started this project with making a trelloboard, on the board i listed everything needed on the site and what i needed to think about.
 
 
-
 ### Tools
 The tools I will be using for this website is the text editor atom which can handle any type of text and code.
 
-I will use jquery and bootsrap to make it easier for my self
+I will use jquery and bootsrap to make it easier for myself
 ### Informatoin Architecture
 
 
 ### Code structure
 
-| Tables        | Are           |
+|         |            |
 | ------------- |:-------------:|
 | site          | -html         |
 |               | -css          |
@@ -68,6 +70,8 @@ I will use jquery and bootsrap to make it easier for my self
 |               | - test documentation|
 |               | - sketches & stoyboards|
 |               | - sitemap|
+|               |               |
+|               | - node_modules|
 
 
 
@@ -102,6 +106,6 @@ I will use jquery and bootsrap to make it easier for my self
 * Snygga färger med bra kontrast
 
 #### Lägg till
-* Tydligare uppdelning 
+* Tydligare uppdelning
 #### Ändra/fixa
 * Ändra utseendet på navbaren (desktop)
