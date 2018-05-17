@@ -11,3 +11,7 @@
 
 ### Early images of structure digital
 ![Imgur](https://i.imgur.com/hVEWSGq.png)
+
+# Storyboard
+
+![Imgur](https://i.imgur.com/XrKNC6l.png)
