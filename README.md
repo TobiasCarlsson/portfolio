@@ -6,42 +6,6 @@ I choose to make portfolio because i thought it was big
 ## Project plan
 https://trello.com/b/dRPugHYs
 
-## sketches
-#### Navbars
-![Imgur](https://i.imgur.com/oBbqEuM.jpg)
-#### Top of the page
-
-![Imgur](https://i.imgur.com/uHJkEnd.jpg)
-
-#### Scrolling down on the page
-
-![Imgur](https://i.imgur.com/5JUCFnC.jpg)
-
-## Early images of structure digital
-![Imgur](https://i.imgur.com/hVEWSGq.png)
-
-## Graphical profile
-### Color scheme
-
-#### Background color
-#3c3c3e
-
-#### Text color
-#f59679
-
-#### a
-#e6ded2
-
-#### List colors
-#fff
-#b89a7f
-#080904
-#495057
-
-#### Fonts
-Lato
-#### Images
-I all the images that are on my website where take by me so i don't need to think of any copyright.
 ## Process documentation
 
 ### Purpose
@@ -62,11 +26,11 @@ I will use jquery and bootsrap to make it easier for myself
 
 |         |            |
 | ------------- |:-------------:|
-| site          | -html         |
+| Site          | -html         |
 |               | -css          |
 |               | -js           |
 |               |               |
-| documentation | - process documentation|
+| Documentation | - process documentation|
 |               | - test documentation|
 |               | - sketches & stoyboards|
 |               | - sitemap|
