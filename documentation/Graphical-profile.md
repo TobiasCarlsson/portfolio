@@ -1,7 +1,7 @@
 ## Graphical profile
 ### Color scheme
 
-![Imgur](https://i.imgur.com/iBX3hpU.jpg)
+![Imgur](https://i.imgur.com/D3SQWDj.jpg)
 #### Background color
 #3c3c3e
 
