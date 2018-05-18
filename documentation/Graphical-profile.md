@@ -7,4 +7,4 @@
 I choose these colours because i wanted some pretty neutral colours that also have some good contrast between them.
 
 #### Images
-All the images that are on my website where take by me so i don't need to think of any copyright.
+All the images that are on my website where take by me so I don't need to think of any copyright.

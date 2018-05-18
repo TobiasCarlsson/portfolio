@@ -1,4 +1,4 @@
-# sketches
+# Sketches
 ### Navbars
 ![Imgur](https://i.imgur.com/oBbqEuM.jpg)
 ### Top of the page
@@ -14,4 +14,4 @@
 
 # Storyboard
 
-![Imgur](https://i.imgur.com/XrKNC6l.png)
+![Imgur](https://i.imgur.com/WmQjXPu.png)
