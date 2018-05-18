@@ -1,7 +1,7 @@
 # My Portfolio
 
 ## Introduction
-I choose to make portfolio because i thought it was big
+I choose to make portfolio because I thought it was a project that wouldn't be big enough and at the same time I would learn a lot in the progress.  
 
 ## Project plan
 https://trello.com/b/dRPugHYs

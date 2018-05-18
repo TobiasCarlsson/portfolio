@@ -30,5 +30,6 @@
 
 ### Lägg till
 * Tydligare uppdelning
+
 ### Ändra/fixa
 * Ändra utseendet på navbaren (desktop)
