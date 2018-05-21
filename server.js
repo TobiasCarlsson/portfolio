@@ -29,7 +29,7 @@ http.createServer(function (request, response) {
     file = (file == config.root + '/') ? file + config.index : file;
 
     // console.log('Trying to serve: ', file);
-    console.log('Refreshed!')
+    // console.log('Refreshed!')
     function showError(error) {
         console.log(error);
 
