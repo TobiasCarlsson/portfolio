@@ -274,14 +274,24 @@ body{
   height: 100%;
 }
 .icon{
-  color: #05668D;
+  color: #e6ded2;
   margin-top: 20%;
   margin-bottom: 20%;
 
 }
 
 .icon:hover{
-  opacity: 0.7;
+  opacity: 0.8;
+}
+
+
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
 }
 
 /*  */
