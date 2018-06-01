@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const http = require('http');
+const express = require('express')
 const { parse } = require('querystring');
 nodemailer = require('nodemailer')
 
@@ -79,12 +80,12 @@ http.createServer(function (request, response) {
         }
         else {
             response.writeHead(404);
-            response.end('Not found');
+
         }
     });
 
 }).listen(config.port, function() {
-    console.log('Server running at http://localhost:%d', config.port);
+    console.log('Server running at http://tobiascarlsson.com:%d', config.port);
 });
 
 function collectRequestData(request, callback) {
