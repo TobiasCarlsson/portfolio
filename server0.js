@@ -19,13 +19,13 @@ app.post('/contact', function (req, res) {
     port: 465,
     secure: true,
     auth: {
-        user: 'contact@tobiascarlsson.com',
-        pass: 'dBJEUU55zN5U'
+        user: 'EmailAddress',
+        pass: 'Password'
     }
   });
   mailOpts = {
     from: req.body.email,
-    to: 'contact@tobiascarlsson.com',
+    to: 'EmailAddress',
     subject: 'Nytt mail från ' + req.body.name,
     text: `${req.body.name} (${req.body.email}) says: ${req.body.message}`
   };

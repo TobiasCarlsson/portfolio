@@ -263,7 +263,7 @@ body{
 }
 
 .icon{
-  color: #e6ded2;
+  color: #dbc29f;
   margin-top: 20%;
   margin-bottom: 20%;
   font-size: 10vw;
@@ -320,8 +320,13 @@ label{
 .textarea{
   background: #e6ded2;
   width: 100%!important;
+  border: 0;
+  border-radius: 10px;
 }
-
+button{
+  border-color: black;
+  border-radius: 5px;
+}
 .mail{
   width: 85%;
   margin: auto;
