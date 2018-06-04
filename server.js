@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require('express');
 const app = express();
 
@@ -6,8 +8,6 @@ const nodemailer = require('nodemailer');
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
-
-require('dotenv').config();
 
 app.use(express.static('public'));
 
@@ -19,13 +19,13 @@ app.post('/contact', function (req, res) {
     port: 465,
     secure: true,
     auth: {
-        user: 'email',
-        pass: 'pass'
+        user: process.env.MAIL,
+        pass: process.env.PASS
     }
   });
   mailOpts = {
-    from: 'email',
-    to: 'email',
+    from: process.env.MAIL,
+    to: process.env.MAIL,
     subject: 'Nytt mail från ' + req.body.name,
     text: `${req.body.name} (${req.body.email}) :
     ${req.body.message}`
