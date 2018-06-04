@@ -19,15 +19,16 @@ app.post('/contact', function (req, res) {
     port: 465,
     secure: true,
     auth: {
-        user: 'EmailAddress',
-        pass: 'Password'
+        user: 'email',
+        pass: 'pass'
     }
   });
   mailOpts = {
-    from: req.body.email,
-    to: 'EmailAddress',
+    from: 'email',
+    to: 'email',
     subject: 'Nytt mail från ' + req.body.name,
-    text: `${req.body.name} (${req.body.email}) says: ${req.body.message}`
+    text: `${req.body.name} (${req.body.email}) :
+    ${req.body.message}`
   };
   smtpTrans.sendMail(mailOpts, function (error, response) {
     if (error) {
