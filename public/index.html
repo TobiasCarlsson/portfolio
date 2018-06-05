@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="shortcut icon" type="image/png" href="/img/favicon-briefcase.ico" />
 
   <title>Portfolio</title>
@@ -95,34 +96,19 @@
           <h1>Ta kontakt med mig</h1>
         </div>
         <div class="mail">
-          <form action="/contact" id="contact-form" method="post" role="form">
+          <form action="/" id="contact-form" method="post" role="form">
             <fieldset>
               <label for="name">Ditt för- och efternamn &#42;</label>
               <input id="name" name="name" type="text" placeholder="Namn" required="required">
               <label for="email">Din mailadress &#42;</label>
-              <input id="email" name="email" type="text" placeholder="ejladdress" required="required">
+              <input id="email" name="email" type="text" placeholder="Mejladdress" required="required">
               <label for="message"> Meddelande &#42;</label>
               <textarea class="textarea"id="message" name="message" placeholder="Skriv ditt meddelande här" rows="3" required="required"></textarea>
-              <button type="submit">Skicka</button>
+              <button id="send" >Skicka</button>
             </fieldset>
           </form>
         </div>
 
-        <!-- <div class="form">
-          <h2>Maila mig!</h2>
-          <form class="" action="index.html" method="post">
-
-            <label for="firstname">Namn</label>
-            <input class="firstname" type="text" name="firstname" value=".....">
-
-            <label for="mail">Mail</label>
-            <input class="mail" type="text" name="mail" value=".....">
-
-            <input type="submit" value="Submit">
-          </form>
-
-
-        </div> -->
 
         <div class="icons">
           <a target="_blank" href="https://www.instagram.com/quad_out/"><i class="icon fab fa-instagram fa-8x"></i></a>
@@ -139,7 +125,6 @@
   <script src="/js/scroll.js"></script>
   <script src="/js/beLazy.js"></script>
   <script>
-    ;
     (function() {
       // Initialize
       var bLazy = new Blazy();

@@ -4,12 +4,14 @@
   "description": "http://192.168.140.202:3000/",
   "main": "server.js",
   "dependencies": {
+    "alert-node": "^1.2.1",
     "dotenv": "^5.0.1",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "jade": "^1.11.0",
     "nodemailer": "^4.6.5",
-    "postmark": "^1.6.1"
+    "postmark": "^1.6.1",
+    "sweetalert": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
