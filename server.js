@@ -32,7 +32,7 @@ app.post('/contact', function (req, res) {
   };
   smtpTrans.sendMail(mailOpts, function (error, response) {
     if (error) {
-      res.status(400).json({ message: 'Something went wrong', error: error });
+      res.status(400).json({ message: 'Something went wrong', error });
     }
     else {
       res.status(200).json({ message: 'Success' });
