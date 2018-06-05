@@ -1,4 +1,4 @@
-server_old.js
+
 # Logs
 logs
 *.log
@@ -28,13 +28,13 @@ coverage
 bower_components
 
 # node-waf configuration
-/node-moddules
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories
+node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
