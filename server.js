@@ -3,7 +3,6 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
-
 const nodemailer = require('nodemailer');
 
 const bodyParser = require('body-parser');

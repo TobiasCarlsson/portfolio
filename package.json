@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "http://192.168.140.202:3000/",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "jade": "^1.11.0",
+    "nodemailer": "^4.6.5",
+    "postmark": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiasCarlsson/portfolio.git"
+  },
+  "author": "Tobias Carlsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TobiasCarlsson/portfolio/issues"
+  },
+  "homepage": "https://github.com/TobiasCarlsson/portfolio#readme"
+}
