@@ -2,16 +2,17 @@ require('dotenv').config();
 
 const express = require('express');
 const app = express();
+app.use(express.static('public'));
+fs = require('fs');
+
 
 const nodemailer = require('nodemailer');
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.use(express.static('public'));
 
-// POST route from contact form
-app.post('/', function (req, res) {
+app.post('/contact', function (req, res) {
   let mailOpts, smtpTrans;
   smtpTrans = nodemailer.createTransport({
     host: 'smtp.zoho.com',
@@ -25,18 +26,27 @@ app.post('/', function (req, res) {
   mailOpts = {
     from: process.env.EMAIL,
     to: process.env.EMAIL,
-    subject: 'Nytt mail från ' + req.body.name,
+    subject: req.body.subject,
     text: `${req.body.name} (${req.body.email}) :
     ${req.body.message}`
   };
+
   smtpTrans.sendMail(mailOpts, function (error, response) {
     if (error) {
       res.status(400).json({ message: 'Something went wrong', error });
     }
     else {
-      // res.status(200).json({ message: 'Success' });
+      console.log("Success ")
+      res.writeHead(200, {'content-type': 'text/html'});
+      fs.createReadStream('public' + '/contact.html').pipe(res);
 
     }
   });
+});
+
+//The 404 Route (ALWAYS Keep this as the last route)
+app.get('*', function(req, res){
+  res.writeHead(200, {'content-type': 'text/html'});
+  fs.createReadStream('public' + '/404.html').pipe(res);
 });
 app.listen(3000, () => {console.log('server is on, 3000')});
