@@ -96,15 +96,17 @@
           <h1>Ta kontakt med mig</h1>
         </div>
         <div class="mail">
-          <form action="/" id="contact-form" method="post" role="form">
+          <form action="/contact" id="contact-form" method="post" role="form">
             <fieldset>
               <label for="name">Ditt för- och efternamn &#42;</label>
               <input id="name" name="name" type="text" placeholder="Namn" required="required">
               <label for="email">Din mailadress &#42;</label>
               <input id="email" name="email" type="text" placeholder="Mejladdress" required="required">
+              <label for="subject"> Ämne &#42;</label>
+              <input id="subject" name="subject" type="text" placeholder="Ämne" required="required">
               <label for="message"> Meddelande &#42;</label>
               <textarea class="textarea"id="message" name="message" placeholder="Skriv ditt meddelande här" rows="3" required="required"></textarea>
-              <button id="send" >Skicka</button>
+              <button id="send">Skicka</button>
             </fieldset>
           </form>
         </div>
@@ -130,6 +132,7 @@
       var bLazy = new Blazy();
     })();
   </script>
+
   <script src="/js/smoothScroll.js"></script>
 </body>
 
