@@ -26,15 +26,15 @@ body{
 
 .First-page .info{
   text-align: center;
+  font-style: italic !important;
+  letter-spacing: 4px;
   font-size: 5vh;
   font-weight: 200;
-  font-style: normal;
   position: absolute;
   color: white;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 @media (max-width: 768px) {
   .First-page .info{
@@ -44,8 +44,7 @@ body{
 
 .First-page h1{
   text-align: center;
-  width: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato-italic', sans-serif;
   font-size: 8vh;
   font-weight: 100;
   letter-spacing: 2px;
@@ -55,7 +54,23 @@ body{
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-weight: 300;
 
+
+}
+
+.arrow{
+  top: 75%;
+  color: white;
+  font-size: 4.5vh;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+}
+
+.arrow:hover{
+  color: white;
+  opacity: 0.8;
 }
 
 /*  */
