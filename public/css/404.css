@@ -1,11 +1,12 @@
 /* 404 */
-
+body{
+  height: 100%;
+}
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
 
 #title {
   text-align:center;
   font-size:40px;
-  margin-top:40px;
   margin-bottom:-40px;
   position:relative;
   color:#fff;
@@ -28,14 +29,14 @@
 	background:#fff;
 	text-align: center;
 	position: relative;
-  margin-top:-60px;
   box-shadow:inset -1px -4px 4px rgba(0,0,0,0.2);
+  height: 80vh;
+  margin-top: 20vh;
 }
 
 .circles p {
 	font-size: 240px;
 	color: #fff;
-	padding-top: 60px;
 	position: relative;
   z-index: 9;
   line-height: 100%;
