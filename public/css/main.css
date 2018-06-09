@@ -221,6 +221,7 @@ body{
   border-radius: 50%;
   height: 9vw;
   width: 9vw;
+  overflow: hidden;
 
 }
 /*  */
