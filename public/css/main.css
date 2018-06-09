@@ -26,7 +26,6 @@ body{
 
 .First-page .info{
   text-align: center;
-  font-style: italic !important;
   letter-spacing: 4px;
   font-size: 5vh;
   font-weight: 200;
@@ -35,6 +34,8 @@ body{
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-transform: uppercase;
+
 }
 @media (max-width: 768px) {
   .First-page .info{
@@ -44,6 +45,7 @@ body{
 
 .First-page h1{
   text-align: center;
+
   font-family: 'Lato-italic', sans-serif;
   font-size: 8vh;
   font-weight: 100;
@@ -85,6 +87,8 @@ body{
 
 .seperator h1{
   text-align: center;
+  text-transform: uppercase;
+
   color: #f59679;
   font-family: 'Lato', sans-serif;
   font-size: 5.5vh;
@@ -120,6 +124,7 @@ body{
 }
 
 .mesh-img img{
+
   width: 101%;
   height: auto;
   display: block;
@@ -135,11 +140,14 @@ body{
 }
 
 .mesh-text{
+
   background-color: #3c3c3e;
   height: 33vh;
 }
 
 .mesh-text h2{
+  text-transform: uppercase;
+
   color: #f59679;
   text-align: center;
   font-size: 2.5rem;
@@ -180,18 +188,15 @@ body{
   }
 
 .list-group a{
+
   text-decoration: none !important;
   color: #e6ded2;
   font-size: 1.2vw;
   font-weight: 100;
   margin-top: 1%;
-  width: 100%;
+  width: auto;
   text-align: center;
   letter-spacing: 3px;
-}
-
-.list{
-
 }
 
 .list.active{
@@ -216,8 +221,9 @@ body{
     height: 10vh;
     align-items: center;
   }
+
   .list-group a{
-    font-size: 2.5vh;
+    font-size: 1.5vh;
 
   }
   .scrollspy{
@@ -257,6 +263,8 @@ body{
 
 }
 .contact-me h1{
+  text-transform: uppercase;
+
   color: #f59679;
   font-weight: 200;
   text-align: center;
