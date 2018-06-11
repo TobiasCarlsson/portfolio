@@ -108,8 +108,8 @@ p{
 }
 @media (max-width: 768px) {
   .about p{
-    width: 90vw;
-    font-size: 1.5rem;
+    width: 80vw;
+    font-size: 1rem;
 
   }
 }
@@ -166,24 +166,19 @@ p{
   display: block;
   margin: auto;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
 }
 
 .mesh-text{
-
   background-color: #3c3c3e;
   height: 33vh;
 }
 
 .mesh-text h2{
   text-transform: uppercase;
-
   color: #f59679;
   text-align: center;
   font-size: 2.5rem;
@@ -202,6 +197,21 @@ p{
   letter-spacing: 3px;
 }
 
+@media (max-width: 768px) {
+  .mesh-text h2{
+    width: 90vw;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 1.5rem;
+  }
+.mesh-text p{
+  font-size: 1rem;
+}
+.mesh-text{
+  background-color: #3c3c3e;
+  height: 23vh;
+}
+}
 .row{
   height: 33vh;
 }
