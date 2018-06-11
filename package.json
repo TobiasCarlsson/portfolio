@@ -9,7 +9,9 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "jade": "^1.11.0",
+    "jquery": "^3.3.1",
     "nodemailer": "^4.6.5",
+    "nodemon": "^1.17.5",
     "postmark": "^1.6.1",
     "sweetalert": "^2.1.0"
   },

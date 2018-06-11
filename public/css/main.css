@@ -7,6 +7,20 @@ body{
 
 }
 
+h1{
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+
+}
 .scrollspy{
   width: 90%;
   float: right;
@@ -27,7 +41,7 @@ body{
 .First-page .info{
   text-align: center;
   letter-spacing: 4px;
-  font-size: 5vh;
+  font-size: 4vh;
   font-weight: 200;
   position: absolute;
   color: white;
@@ -41,12 +55,11 @@ body{
   .First-page .info{
     top: 63%;
   }
+
 }
 
 .First-page h1{
   text-align: center;
-
-  font-family: 'Lato-italic', sans-serif;
   font-size: 8vh;
   font-weight: 100;
   letter-spacing: 2px;
@@ -74,7 +87,32 @@ body{
   color: white;
   opacity: 0.8;
 }
+/* about  */
 
+.about{
+  height: auto;
+  background-color: #3c3c3e;
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about p{
+  font-size: 2rem;
+  margin: auto;
+  color: white;
+  text-align: center;
+  width: 45vw;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+  .about p{
+    width: 90vw;
+    font-size: 1.5rem;
+
+  }
+}
 /*  */
 .seperator{
   height: 20vh;
@@ -88,11 +126,9 @@ body{
 .seperator h1{
   text-align: center;
   text-transform: uppercase;
-
   color: #f59679;
-  font-family: 'Lato', sans-serif;
   font-size: 5.5vh;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 2px;
   width: 100%;
   position: relative;
@@ -217,7 +253,7 @@ body{
     position: fixed !important;
     z-index: 1;
     background: #3c3c3e;
-    flex-direction: row;
+    flex-direction: row!important;
     height: 10vh;
     align-items: center;
   }
@@ -235,6 +271,7 @@ body{
     width: 9vh !important;
     height: 9vh !important;
   }
+
 }
 
 .profile{
@@ -264,13 +301,11 @@ body{
 }
 .contact-me h1{
   text-transform: uppercase;
-
   color: #f59679;
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   letter-spacing: 4px;
   font-size: 3rem;
-  font-family: 'Lato', sans-serif;
   top: 50%;
   position: relative;
   -webkit-transform: translateY(-50%);
@@ -283,7 +318,7 @@ body{
   justify-content: space-around;
   align-items: flex-start;
   bottom: 0;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .icon{
