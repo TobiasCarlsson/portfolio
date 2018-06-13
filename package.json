@@ -13,6 +13,7 @@
     "nodemailer": "^4.6.5",
     "nodemon": "^1.17.5",
     "postmark": "^1.6.1",
+    "sass": "^1.5.1",
     "sweetalert": "^2.1.0"
   },
   "devDependencies": {},
