@@ -147,13 +147,13 @@ p {
 }
 
 .mesh-img {
-  height: 33vh;
+  height: 30vh;
   overflow: hidden;
   margin: auto;
   vertical-align: top;
 
   img {
-    width: 101%;
+    width: 100%;
     height: auto;
     display: block;
     margin: auto;
@@ -161,12 +161,13 @@ p {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
+    bottom: -15%;
   }
 }
 
 .mesh-text {
   background-color: $main-background;
-  height: 33vh;
+  height: 30vh;
 
   h2 {
     text-transform: uppercase;
@@ -202,12 +203,16 @@ p {
       font-size: 1rem;
     }
   }
+  .mesh-img{
 
-  .mesh-text .mesh-text {}
+    img{
+      bottom: auto;
+    }
+  }
 }
 
 .row {
-  height: 33vh;
+  height: 30vh;
 }
 
 .container {
