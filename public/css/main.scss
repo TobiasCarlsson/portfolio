@@ -382,11 +382,13 @@ label {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 10px !important;
   background: #e6ded2;
   color: #747888;
-  font-size: 1.1em;
-  margin-top: 1%;
+  font-size: 1.1em !important;
+  margin-top: 1.5% !important;
+  
+
 }
 
 .mail {
