@@ -3,8 +3,15 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 var https = require("https");
+  fs = require('fs');
 app.use(express.static('public'));
-fs = require('fs');
+
+
+
+const options = {
+  key: fs.readFileSync("/srv/www/keys/my-site-key.pem"),
+  cert: fs.readFileSync("/srv/www/keys/chain.pem")
+};
 
 const nodemailer = require('nodemailer');
 
