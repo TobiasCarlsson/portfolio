@@ -7,12 +7,6 @@ var https = require("https");
 app.use(express.static('public'));
 
 
-
-const options = {
-  key: fs.readFileSync("/srv/www/keys/my-site-key.pem"),
-  cert: fs.readFileSync("/srv/www/keys/chain.pem")
-};
-
 const nodemailer = require('nodemailer');
 
 const bodyParser = require('body-parser');
