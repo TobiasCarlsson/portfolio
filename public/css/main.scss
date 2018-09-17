@@ -230,6 +230,9 @@ p {
   background: $main-background;
   justify-content: space-around;
   letter-spacing: 3px;
+  border: #f59679;
+  border-style: solid;
+  border-width: 0 1px 0 0;
 }
 
 .list-group a {
@@ -284,17 +287,10 @@ p {
   height: 9vw;
   width: 9vw;
   overflow: hidden;
+  object-fit: cover;
 }
 /*  */
 .contact {}
-
-.contact-splitter {
-  height: 20vh;
-  background-color: $main-background;
-  border: #f59679;
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-}
 
 .contact-me {
   padding-top: 1%;
@@ -387,7 +383,7 @@ button {
   color: #747888;
   font-size: 1.1em !important;
   margin-top: 1.5% !important;
-  
+
 
 }
 
