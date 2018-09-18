@@ -29,9 +29,10 @@
 </head>
 
 
-<body>
 
-  <div id="list" class="list-group">
+<body data-spy="scroll" data-target=".list-group" data-offset-top="10" class="scrollspy">
+
+  <div id="list" class="list-group" data-spy="affix" data-offset-top="197">
     <img class="profile" src="/img/ProfilePicture.jpg" alt="">
     <a class="list list-action active" href="#home">Hem</a>
     <a class="list list-action" href="#about">Om mig</a>
@@ -40,7 +41,8 @@
 
   </div>
 
-  <div data-spy="scroll" data-target="#menu" data-offset="0" class="scrollspy">
+  <!-- <div data-spy="scroll" data-target=".list-group" data-offset="10" class="scrollspy"> -->
+
     <div id="home" class="section">
       <div class="First-page">
         <h1>Tobias Carlsson</h1>
@@ -149,7 +151,7 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
   <script src="/js/scroll.js"></script>
   <script src="/js/beLazy.js"></script>

@@ -1,4 +1,5 @@
 $main-background: #3c3c3e;
+$main-border: #e6ded2;
 $main-font: 'Raleway', sans-serif;
 
 body {
@@ -7,6 +8,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
+  position: relative;
 }
 
 h1 {
@@ -22,7 +24,6 @@ p {
 }
 
 .scrollspy {
-  width: 90%;
   float: right;
 }
 
@@ -76,6 +77,7 @@ p {
   font-size: 4.5vh;
   transform: translate(-50%, -50%);
   position: absolute;
+  transition: 0.3s;
 }
 
 .arrow:hover {
@@ -85,7 +87,6 @@ p {
 /* about  */
 .about {
   height: auto;
-  background-color: $main-background;
   margin: 0;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -107,6 +108,12 @@ p {
   }
 }
 /*  */
+
+.section{
+  min-height: 100vh;
+  background-color: $main-background;
+
+}
 .seperator {
   height: 20vh;
   background-color: $main-background;
@@ -167,7 +174,6 @@ p {
 }
 
 .mesh-text {
-  background-color: $main-background;
   height: 33vh;
 
   h2 {
@@ -191,7 +197,6 @@ p {
 }
 @media (max-width: 768px) {
   .mesh-text {
-    background-color: $main-background;
     height: 23vh;
 
     h2 {
@@ -225,11 +230,12 @@ p {
   flex-direction: column;
   position: fixed;
   z-index: 1;
+
   width: 10%;
   height: 100vh;
   background: $main-background;
   justify-content: space-around;
-  letter-spacing: 3px;
+
   border: #f59679;
   border-style: solid;
   border-width: 0 1px 0 0;
@@ -244,11 +250,18 @@ p {
   width: auto;
   text-align: center;
   letter-spacing: 3px;
+
+  transition: 0.4s;
 }
 
 .list.active {
+  margin-top: 50px;
   z-index: 2;
   color: #f59679;
+  border-width: 0px 0px 2px 0px;
+  border-color: #f59679;
+  border-style: solid;
+  transition: 0.4s;
 }
 
 .list:hover {
@@ -264,10 +277,19 @@ p {
     flex-direction: row!important;
     height: 10vh;
     align-items: center;
+    border-right: none;
   }
 
   .list-group a {
     font-size: 1.5vh;
+  }
+
+  .list.active {
+    margin-top: 20px;
+
+  }
+  .list:hover {
+    color: #e6ded2;
   }
 
   .scrollspy {
@@ -279,6 +301,7 @@ p {
     width: 9vh !important;
     height: 9vh !important;
   }
+
 }
 
 .profile {
@@ -290,12 +313,13 @@ p {
   object-fit: cover;
 }
 /*  */
-.contact {}
+.contact {
+}
 
 .contact-me {
   padding-top: 1%;
   width: 100%;
-  background: $main-background;
+  height: 100%;
 }
 
 .contact-me h1 {
