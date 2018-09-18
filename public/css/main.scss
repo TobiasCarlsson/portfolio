@@ -112,6 +112,8 @@ p {
 .section{
   min-height: 100vh;
   background-color: $main-background;
+  width: 90vw;
+  float: right;
 
 }
 .seperator {
@@ -214,6 +216,9 @@ p {
     img{
       bottom: auto;
     }
+  }
+  .section{
+    width: 100vw;
   }
 }
 
