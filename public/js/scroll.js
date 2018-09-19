@@ -3,7 +3,7 @@
 
   var section = document.querySelectorAll(".section");
   var sections = {};
-  var i = 0;
+  var i = 100;
 
   Array.prototype.forEach.call(section, function(e) {
     sections[e.id] = e.offsetTop;
