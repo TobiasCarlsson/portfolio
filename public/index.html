@@ -3,14 +3,17 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120660185-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120660185-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-120660185-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120660185-1');
+  </script>
 
   <link rel="stylesheet" type="text/css" href="css/main.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
@@ -43,114 +46,105 @@
 
   <!-- <div data-spy="scroll" data-target=".list-group" data-offset="10" class="scrollspy"> -->
 
-    <div id="home" class="section">
-      <div class="First-page">
-        <h1>Tobias Carlsson</h1>
-        <div class="info">Om mig</div>
-        <a class="arrow"href="#about"><i class="fas fa-arrow-circle-down"></i></a>
+  <div id="home" class="section">
+    <div class="First-page">
+      <h1>Tobias Carlsson</h1>
+      <div class="info">Om mig</div>
+      <a class="arrow" href="#about"><i class="fas fa-arrow-circle-down"></i></a>
+    </div>
+  </div>
+
+  <div id="about" class="section">
+    <div class="seperator">
+      <h1>Vem är Tobias?</h1>
+    </div>
+    <div class="about">
+      <p class="">Hej! Mitt namn är Tobias och det här är min hemsida. Jag är en 18-årig utvecklare som både gillar hårdvaruutveckling och mjukvaruutveckling. Just nu har jag startat mitt egna företag för att frilansa inom webutveckling där målet är liva upp gamla
+        och tråkiga hemsidor som fortfarande finns och används. Det ni finner på hemsidan är lite snabbt om vem jag är, vad jag gillar att göra och mina stora intressen. Om ni skulle vara intresserade av att kontakta mig finns det ett kontaktformulär
+        och länkar till de social medier jag använder mig av längst ner på sidan</p>
+    </div>
+  </div>
+
+  <div id="interest" class="section">
+    <div class="seperator">
+      <h1>Intressen</h1>
+
+    </div>
+    <div class="Second-page">
+
+      <div class="col-md-6 mesh-text left">
+        <h2>Arduino</h2>
+        <p>Utvecklar prototyper och bygger kompletta projekt</p>
+      </div>
+      <div class="col-md-6 mesh-img right">
+        <img src="/img/weMos-min.jpg" alt="How arduino has change my life" padding="0">
+      </div>
+
+
+      <div class="col-md-6 mesh-text right">
+        <h2>RaspberryPi</h2>
+        <p>För mer avancerade och kraftkrävande projekt</p>
+      </div>
+      <div class="col-md-6 mesh-img left">
+        <img class="b-lazy" data-src="/img/raspberryPi-min.jpg" alt="Why RaspberryPi is awsome" padding="0">
+      </div>
+
+      <div class="col-md-6 mesh-text left">
+        <h2>Fotografering</h2>
+        <p>För att fånga ögonblicket när det är som bäst</p>
+      </div>
+      <div class="col-md-6 mesh-img right">
+        <img class="b-lazy" data-src="/img/fireWorks-min.jpg" alt="">
+      </div>
+
+      <div class="col-md-6 mesh-text right">
+        <h2>Programmering</h2>
+        <p></p>
+      </div>
+      <div class="col-md-6 mesh-img left">
+        <img class="b-lazy" data-src="/img/code-min.jpg" alt="Coding in atom">
+      </div>
+
+      <div class="col-md-6 mesh-text left">
+        <h2>Flyga quad</h2>
+        <p>För att smita från vardagen</p>
+      </div>
+      <div class="col-md-6 mesh-img right">
+        <img class="b-lazy" data-src="/img/drone-min.jpg" alt="Flying drones">
       </div>
     </div>
+  </div>
 
-    <div id="about" class="section">
+  <div id="contact" class="section">
+    <div class="contact-me">
       <div class="seperator">
-        <h1>Vem är Tobias?</h1>
+        <h1>Kontakta mig</h1>
       </div>
-      <div class="about">
-        <p class="">Hej! Mitt namn är Tobias och det här är min hemsida. Jag är en 18-årig utvecklare som både gillar
-           hårdvaruutveckling och mjukvaruutveckling. Just nu har jag startat mitt egna företag för att frilansa inom
-           webutveckling där målet är liva upp den gamla och tråkiga hemsidor som fortfarande finns och används.
-           Det ni finner på hemsidan är lite snabbt om vem jag är, vad jag
-           gillar att göra och mina stora intressen. Om ni skulle vara intresserade av att kontakta mig finns det ett
-           kontaktformulär och länkar till de social medier jag använder mig av längst ner på sidan</p>
-
+      <div class="mail">
+        <form action="/contact" id="contact-form" method="post" role="form">
+          <fieldset>
+            <label for="name">Ditt för- och efternamn &#42;</label>
+            <input id="name" name="name" type="text" placeholder="Namn" required="required">
+            <label for="email">Din mailadress &#42;</label>
+            <input id="email" name="email" type="text" placeholder="Mejladdress" required="required">
+            <label for="subject"> Ämne &#42;</label>
+            <input id="subject" name="subject" type="text" placeholder="Ämne" required="required">
+            <label for="message"> Meddelande &#42;</label>
+            <textarea class="textarea" id="message" name="message" placeholder="Skriv ditt meddelande här" rows="3" required="required"></textarea>
+            <button id="send">Skicka</button>
+          </fieldset>
+        </form>
       </div>
 
-    </div>
+      <div class="icons">
+        <a target="_blank" href="https://www.instagram.com/quad_out/"><i class="icon fab fa-instagram"></i></a>
+        <a target="_blank" href="https://github.com/TobiasCarlsson/"><i class="icon fab fa-github"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/tobias-carlsson/"><i class="icon fab fa-linkedin"></i></a>
+        <a target="_blank" href="https://twitter.com/Saiboten01"><i class="icon fab fa-twitter"></i></a>
 
-
-    <div id="interest" class="section">
-      <div class="seperator">
-        <h1>Intressen</h1>
-
-      </div>
-      <div class="Second-page">
-
-        <div class="col-md-6 mesh-text left">
-          <h2>Arduino</h2>
-          <p>Utvecklar prototyper och bygger kompletta projekt</p>
-        </div>
-        <div class="col-md-6 mesh-img right">
-          <img src="/img/weMos-min.jpg" alt="How arduino has change my life" padding="0">
-        </div>
-
-
-        <div class="col-md-6 mesh-text right">
-          <h2>RaspberryPi</h2>
-          <p>För mer avancerade och kraftkrävande projekt</p>
-        </div>
-        <div class="col-md-6 mesh-img left">
-          <img class="b-lazy" data-src="/img/raspberryPi-min.jpg" alt="Why RaspberryPi is awsome" padding="0">
-        </div>
-
-
-        <div class="col-md-6 mesh-text left">
-          <h2>Fotografering</h2>
-          <p>För att fånga ögonblicket när det är som bäst</p>
-        </div>
-        <div class="col-md-6 mesh-img right">
-          <img class="b-lazy" data-src="/img/fireWorks-min.jpg" alt="">
-        </div>
-
-
-        <div class="col-md-6 mesh-text right">
-          <h2>Programmering</h2>
-          <p></p>
-        </div>
-        <div class="col-md-6 mesh-img left">
-          <img class="b-lazy" data-src="/img/code-min.jpg" alt="Coding in atom">
-        </div>
-
-        <div class="col-md-6 mesh-text left">
-          <h2>Flyga quad</h2>
-          <p>För att smita från vardagen</p>
-        </div>
-        <div class="col-md-6 mesh-img right">
-          <img class="b-lazy" data-src="/img/drone-min.jpg" alt="Flying drones">
-        </div>
       </div>
     </div>
-
-    <div id="contact" class="section">
-      <div class="contact-me">
-        <div class="seperator">
-          <h1>Kontakta mig</h1>
-        </div>
-        <div class="mail">
-          <form action="/contact" id="contact-form" method="post" role="form">
-            <fieldset>
-              <label for="name">Ditt för- och efternamn &#42;</label>
-              <input id="name" name="name" type="text" placeholder="Namn" required="required">
-              <label for="email">Din mailadress &#42;</label>
-              <input id="email" name="email" type="text" placeholder="Mejladdress" required="required">
-              <label for="subject"> Ämne &#42;</label>
-              <input id="subject" name="subject" type="text" placeholder="Ämne" required="required">
-              <label for="message"> Meddelande &#42;</label>
-              <textarea class="textarea"id="message" name="message" placeholder="Skriv ditt meddelande här" rows="3" required="required"></textarea>
-              <button id="send">Skicka</button>
-            </fieldset>
-          </form>
-        </div>
-
-
-        <div class="icons">
-          <a target="_blank" href="https://www.instagram.com/quad_out/"><i class="icon fab fa-instagram"></i></a>
-          <a target="_blank" href="https://github.com/TobiasCarlsson/"><i class="icon fab fa-github"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/tobias-carlsson/"><i class="icon fab fa-linkedin"></i></a>
-          <a target="_blank" href="https://twitter.com/Saiboten01"><i class="icon fab fa-twitter"></i></a>
-
-        </div>
-      </div>
-    </div>
+  </div>
   <!-- </div> -->
 
   <script src="/js/scroll.js"></script>

@@ -1,5 +1,6 @@
 $main-background: #3c3c3e;
 $main-border: #e6ded2;
+$bright-border: #f59679;
 $main-font: 'Raleway', sans-serif;
 
 body {
@@ -61,7 +62,7 @@ p {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-weight: 300;
+    font-weight: 200;
   }
 }
 
@@ -74,16 +75,21 @@ p {
 .arrow {
   top: 75%;
   color: white;
-  font-size: 4.5vh;
+  font-size: 5vh;
   transform: translate(-50%, -50%);
   position: absolute;
   transition: 0.3s;
 }
 
+
 .arrow:hover {
-  color: white;
+  color: $main-background;
   opacity: 0.8;
+  transition: 0.5s;
+
 }
+
+
 /* about  */
 .about {
   height: auto;
@@ -119,14 +125,14 @@ p {
 .seperator {
   height: 20vh;
   background-color: $main-background;
-  border: #f59679;
+  border: $bright-border;
   border-style: solid;
   border-width: 1px 0 1px 0;
 
   h1 {
     text-align: center;
     text-transform: uppercase;
-    color: #f59679;
+    color: $bright-border;
     font-size: 5.5vh;
     font-weight: 300;
     letter-spacing: 2px;
@@ -180,7 +186,7 @@ p {
 
   h2 {
     text-transform: uppercase;
-    color: #f59679;
+    color: $bright-border;
     text-align: center;
     font-size: 2.5rem;
     margin-top: 10%;
@@ -241,7 +247,7 @@ p {
   background: $main-background;
   justify-content: space-around;
 
-  border: #f59679;
+  border: $bright-border;
   border-style: solid;
   border-width: 0 1px 0 0;
 }
@@ -262,10 +268,11 @@ p {
 .list.active {
   margin-top: 50px;
   z-index: 2;
-  color: #f59679;
+  color: $bright-border;
   border-width: 0px 0px 2px 0px;
-  border-color: #f59679;
+  border-color: $bright-border;
   border-style: solid;
+  font-size: 1.5vw;
   transition: 0.4s;
 }
 
@@ -329,7 +336,7 @@ p {
 
 .contact-me h1 {
   text-transform: uppercase;
-  color: #f59679;
+  color: $bright-border;
   font-weight: 300;
   text-align: center;
   letter-spacing: 4px;
@@ -345,7 +352,10 @@ p {
   justify-content: space-around;
   align-items: flex-start;
   bottom: 0;
-  margin-top: 10%;
+  margin:auto;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  width: 65%;
 }
 
 .icon {
@@ -417,7 +427,7 @@ button {
 }
 
 .mail {
-  width: 85%;
+  width: 65%;
   margin: 10% auto auto;
   border-style: solid;
   border-width: 5px;
